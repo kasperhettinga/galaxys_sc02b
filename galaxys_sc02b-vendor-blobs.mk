@@ -25,6 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys_sc02b/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/galaxys_sc02b/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/samsung/galaxys_sc02b/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/galaxys_sc02b/proprietary/vendor/bin/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/galaxys_sc02b/proprietary/vendor/lib/hw/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/galaxys_sc02b/proprietary/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys_sc02b/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/galaxys_sc02b/proprietary/vendor/firmware/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin
